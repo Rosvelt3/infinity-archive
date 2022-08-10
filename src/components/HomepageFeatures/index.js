@@ -26,7 +26,7 @@ const FeatureList = [
     title: "12 Riven",
     image: "https://dggwv1n7k10fk.cloudfront.net/assets/12riven.webp",
     description: <>The fourth and last entry in the infinity series.</>,
-    archiveRoute: "remember-11",
+    archiveRoute: "12-riven",
   },
 ];
 
