@@ -14,4 +14,4 @@ To install Love2d go to Love2d's **[Homepage](https://love2d.org/)**. And downlo
 
 ## Downloading Never 7
 
-To download Never 7 go to this **[link](https://elasticbeanstalk-us-east-1-122562843908.s3.amazonaws.com/n7e.love)** and download the file. If you installed Love2d you should be able to run the .love file.
+To download Never 7 go to this **[link](dggwv1n7k10fk.cloudfront.net/n7e.love)** and download the file. If you installed Love2d you should be able to run the .love file.
