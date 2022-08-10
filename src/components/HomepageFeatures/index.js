@@ -3,33 +3,28 @@ import clsx from "clsx";
 import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
 
-import never7Cover from "/img/never7.jpg";
-import ever17Cover from "/img/ever17.jpg";
-import remember11Cover from "/img/remember11.jpg";
-import twelveRivenCover from "/img/12riven.webp";
-
 const FeatureList = [
   {
     title: "Never 7",
-    image: never7Cover,
+    image: "https://dggwv1n7k10fk.cloudfront.net/assets/never7.jpg",
     description: <>The first entry in the infinity series.</>,
     archiveRoute: "never-7",
   },
   {
     title: "Ever 17",
-    image: ever17Cover,
+    image: "https://dggwv1n7k10fk.cloudfront.net/assets/ever17.jpg",
     description: <>The second entry in the infinity series.</>,
     archiveRoute: "ever-17",
   },
   {
     title: "Remember 11",
-    image: remember11Cover,
+    image: "https://dggwv1n7k10fk.cloudfront.net/assets/remember11.jpg",
     description: <>The third entry in the infinity series.</>,
     archiveRoute: "remember-11",
   },
   {
     title: "12 Riven",
-    image: twelveRivenCover,
+    image: "https://dggwv1n7k10fk.cloudfront.net/assets/12riven.webp",
     description: <>The fourth and last entry in the infinity series.</>,
     archiveRoute: "remember-11",
   },
