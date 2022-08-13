@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Infinity Archive",
   tagline: "The resources of infinity",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://infinity.isaiasdev.com/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",

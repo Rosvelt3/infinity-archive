@@ -10,7 +10,7 @@ The best way to play Never 7 is to download the Eternal Edition but you will als
 
 To install Love2d go to Love2d's **[Homepage](https://love2d.org/)**. And download an installer/binary appropiate to your Operative System.
 
-![Flowchart](https://dggwv1n7k10fk.cloudfront.net/assets/love2d.png)
+![Love2d website](https://dggwv1n7k10fk.cloudfront.net/assets/love2d.png)
 
 ## Downloading Never 7
 
