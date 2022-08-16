@@ -46,6 +46,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: "https://dggwv1n7k10fk.cloudfront.net/assets/infinity.png",
       colorMode: {
         defaultMode: "dark",
         disableSwitch: true,
