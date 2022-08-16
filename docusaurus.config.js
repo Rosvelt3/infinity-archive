@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Infinity Archive",
   tagline: "The resources of infinity",
-  url: "https://infinity.isaiasdev.com/",
+  url: "https://infinity-archive.com/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -48,10 +48,28 @@ const config = {
         title: "Infinity Archive",
         items: [
           {
-            type: "doc",
-            docId: "intro",
+            to: "docs/never-7/how-to-play-never-7",
             position: "left",
-            label: "Archive",
+            activeBaseRegex: "docs/never-7",
+            label: "Never 7",
+          },
+          {
+            to: "docs/ever-17/how-to-play-ever-17",
+            position: "left",
+            activeBaseRegex: "docs/ever-17",
+            label: "Ever 17",
+          },
+          {
+            to: "docs/remember-11/how-to-play-remember-11",
+            position: "left",
+            activeBaseRegex: "docs/remember-11",
+            label: "Remember 11",
+          },
+          {
+            to: "docs/twelve-riven/how-to-play-12-riven",
+            position: "left",
+            activeBaseRegex: "docs/twelve-riven",
+            label: "12Riven",
           },
         ],
       },

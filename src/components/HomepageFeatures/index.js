@@ -8,25 +8,25 @@ const FeatureList = [
     title: "Never 7",
     image: "https://dggwv1n7k10fk.cloudfront.net/assets/never7.jpg",
     description: <>The first entry in the infinity series.</>,
-    archiveRoute: "never-7",
+    archiveRoute: "never-7/how-to-play-never-7",
   },
   {
     title: "Ever 17",
     image: "https://dggwv1n7k10fk.cloudfront.net/assets/ever17.jpg",
     description: <>The second entry in the infinity series.</>,
-    archiveRoute: "ever-17",
+    archiveRoute: "ever-17/how-to-play-ever-17",
   },
   {
     title: "Remember 11",
     image: "https://dggwv1n7k10fk.cloudfront.net/assets/remember11.jpg",
     description: <>The third entry in the infinity series.</>,
-    archiveRoute: "remember-11",
+    archiveRoute: "remember-11/how-to-play-remember-11",
   },
   {
     title: "12 Riven",
     image: "https://dggwv1n7k10fk.cloudfront.net/assets/12riven.webp",
     description: <>The fourth and last entry in the infinity series.</>,
-    archiveRoute: "12riven",
+    archiveRoute: "twelve-riven/how-to-play-12-riven",
   },
 ];
 
@@ -40,10 +40,7 @@ function Feature({ image, title, description, archiveRoute }) {
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
-      <Link
-        className="button button--primary"
-        to={`/docs/category/${archiveRoute}`}
-      >
+      <Link className="button button--primary" to={`/docs/${archiveRoute}`}>
         Open the {title} archive
       </Link>
     </div>
